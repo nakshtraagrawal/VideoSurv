@@ -1,0 +1,13 @@
+model: conv_autoencoder
+in_channels: 1
+latent_dim: 512
+img_size: 256
+clip_length: 1
+train:
+  epochs: 50
+  batch_size: 32
+  lr: 0.001
+  num_workers: 4
+eval:
+  threshold_percentile: 95
+  smooth_window: 15

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+autosurveil.db
+uploads/
+node_modules/
+frontend/dist/
+.DS_Store
+wandb/
